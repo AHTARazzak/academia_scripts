@@ -16,3 +16,9 @@ Takes three inputs:
 1) .xvg file to edit
 2) file to save to.
 3) where to start counting x-ais from (initiate x)
+
+For "breakingupcatpdb.py" to be run in Python2.7
+
+Upon uploading a trajectory file (.dcd or .xtc) onto VMD the concatenated pdb files can be downloaded into a single file. This script reads that concatenated file and splits it into its constituent PDB frames.
+
+The file takes three inputs, 1) the concatenated file, 2) the name format of the file it splits it into, each file is numbered at the end.
