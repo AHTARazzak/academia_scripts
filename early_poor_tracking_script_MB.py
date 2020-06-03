@@ -12,8 +12,8 @@ import math
 #cav4 resid: 25 28 29 65 68 69 72 107 111
 #cav4 ca: 375 411 430 1057 1094 1153 1737 1792
 
-#fileformat to read
-pdbread=str(sys.argv[1])
+#fileformat to read (crd, charmm format)
+crdread=str(sys.argv[1])
 #this atom (XE1,XE2,XE3,XE4) in our case
 checkatomname=str(sys.argv[2])
 #which file to start from (number)
@@ -42,7 +42,7 @@ writevecdif2r=open("writevecdif2r.txt","w+")
 writevecdifr1r2a=open("writevecdifr1r2a.txt","w+")
 writevecdifr1r2b=open("writevecdifr1r2b.txt","w+")
 for i in range(startiterations,numberiterations+1):
-	with open(pdbread+str(i)+".crd") as f:
+	with open(crdread+str(i)+".crd") as f:
 		for line in f:
 			splitline=line.split()
 			if len(splitline)>3:
