@@ -31,8 +31,7 @@ Takes 3 arguments:
 3. Edited RMSF file output name.
 
 
-"fill_xvg_num.py" run on Python 2.7
-This script scans through a .xvg file and looks for breaks in the time series and fill the breaks with a time-series x associatd with determined number.
+peter.hauser@unibas.ch
 
 Takes 5 arguments:
 1. File to read.
@@ -46,3 +45,14 @@ This script takes all the atoms not in selection for each residue and outputs th
 
 Takes 1 arguments (but read file to modulate variable):
 1. PDB file to read.
+
+"early_poor_tracking_script_MB.py" run on Python 3
+This script was an early attempt at me making a cavity centre of mass (as defined by residues lining residue) tracking script.
+It takes an atom and determines which of either pocket or pocke 2 it is in.
+Intended for use with charmm after splitting trajectory into series of coordinate files (.cor or .crd)
+
+Takes 3 arguments (but read file to modulate variable):
+1. CRD files to read (series).
+2. Atom being tracked (resname).
+3. Which file to stop tracking at.
+  
