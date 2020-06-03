@@ -40,3 +40,9 @@ Takes 5 arguments:
 3. Where to start the x-series from (better leave as "1").
 4. where to end the x-series (better leave as "1").
 5. What to fill into the the y column.
+
+"residue_atom_pull.py" run on Python 3
+This script takes all the atoms not in selection for each residue and outputs them to a file
+
+Takes 1 arguments (but read file to modulate variable):
+1. PDB file to read.
