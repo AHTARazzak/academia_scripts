@@ -99,7 +99,7 @@ Takes 3 arguments (but read file to modulate variable):
 2. Atom being tracked (resname).
 3. Which file to stop tracking at.
  
- ALI RAZZAK SCRIPT MADE DURING PHYSICAL CHEMISTRY PhD @ UNIVERSITY OF BASEL
+ ALI RAZZAK SCRIPT MADE DURING PHYSICAL CHEMISTRY RESEARCHER @ UNIVERSITY OF BASEL
 
 For "combine_column_1s.py" to be run in Python2.7
 Takes the first row of two files [x] and [y] and combines them into a single file with two rows [x y]. Particularly useful in preparation for the "make_ramachandran.py" script.
